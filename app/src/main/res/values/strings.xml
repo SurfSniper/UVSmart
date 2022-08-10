@@ -2,5 +2,6 @@
     <string name="app_name">UV Smart</string>
     <string name="find_out_uv_index_today">Find Out UV Index Today</string>
     <string name="get_started">GET STARTED!</string>
-    <string name="call_to_action">Living in Victoria, Australia, offers a vibrant lifestyle that nurtures success and the confidence to achieve your dreams. Melbourne is also voted among the Top Five Cities in the World for Students in the QS Best Student Cities Guide. With the increase of international students studying in Victoria, there is a need to raise awareness on how you can protect yourself against the harmful UV radiation to prevent skin damage. Learn more about the UI Index Today and Why you need to protect yourself…</string>
+    <string name="call_to_action">Living in Victoria, Australia, offers a vibrant lifestyle that nurtures success and the confidence to achieve your dreams. With the increase of international students studying in Victoria, there is a need to raise awareness on how you can protect yourself against the harmful UV radiation to prevent skin damage.\nLearn more about the UI Index Today and Why you need to protect yourself…</string>
+    <string name="tips_for_today">TIPS For Today</string>
 </resources>

@@ -5,27 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FF52C7B8"
+    android:background="@drawable/suggest"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:textColor="@android:color/white"
         android:textSize="28sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UV SMART TIPS" />
+        android:text="@string/tips_for_today"
+        />
 
 
     <TextView
         android:id="@+id/tv"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="50dp"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FIND OUT UV INDEX TODAY" />
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:text="FIND OUT UV INDEX TODAY"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
 </LinearLayout>
