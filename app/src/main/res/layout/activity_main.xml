@@ -12,19 +12,20 @@
     <TextView
         android:layout_width="162dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:layout_gravity="center"
         android:text="UV Smart"
         android:textColor="#FFD900"
-        android:textSize="28sp" />
+        android:textSize="28sp"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Find Out UV Index Today"
+        android:text="@string/find_out_uv_index_today"
         android:textColor="@android:color/white"
         android:textSize="28sp" />
 
@@ -34,7 +35,8 @@
         android:layout_height="224dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/sun" />
+        app:srcCompat="@drawable/sun"
+        android:contentDescription="sun_icon" />
 
     <TextView
         android:id="@+id/intro_detail"
@@ -42,9 +44,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:text="Living in Victoria, Australia, offers a vibrant lifestyle that nurtures success and the confidence to achieve your dreams. Melbourne is also voted among the Top Five Cities in the World for Students in the QS Best Student Cities Guide.  With the increase of international students studying in Victoria, there is a need to raise awareness on how you can protect yourself against the harmful UV radiation to prevent skin damage. Learn more about the UI Index Today and Why you need to protect yourself…"
+        android:text="@string/call_to_action"
         android:textColor="@android:color/white"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/bt"
@@ -53,8 +56,9 @@
         android:layout_gravity="center"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="20dp"
-        android:text="GET STARTED!"
-        android:textColor="#E57755" />
+        android:text="@string/get_started"
+        android:textColor="#E57755"
+        tools:ignore="TextContrastCheck" />
 
 
 
