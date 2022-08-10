@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FF52C7B8"
+    android:background="@drawable/light"
     tools:context=".MainActivity">
 
 
     <TextView
         android:layout_width="162dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
         android:text="UV Smart"
         android:textColor="#616161"
