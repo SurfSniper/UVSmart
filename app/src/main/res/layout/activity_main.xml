@@ -27,7 +27,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/find_out_uv_index_today"
         android:textColor="@android:color/white"
-        android:textSize="28sp" />
+        android:textSize="28sp"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -41,7 +42,7 @@
     <TextView
         android:id="@+id/intro_detail"
         android:layout_width="357dp"
-        android:layout_height="wrap_content"
+        android:layout_height="157dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:text="@string/call_to_action"
@@ -58,6 +59,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/get_started"
         android:textColor="#E57755"
+        android:backgroundTint="@color/white"
         tools:ignore="TextContrastCheck" />
 
 
