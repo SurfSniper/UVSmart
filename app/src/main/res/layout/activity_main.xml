@@ -13,7 +13,7 @@
         android:layout_width="162dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:text="UV Smart"
         android:textColor="#FFD900"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:text="Find Out UV Index Today"
         android:textColor="@android:color/white"
         android:textSize="28sp" />
@@ -33,7 +33,7 @@
         android:layout_width="244dp"
         android:layout_height="224dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         app:srcCompat="@drawable/sun" />
 
     <TextView
@@ -50,8 +50,9 @@
         android:id="@+id/bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="GET STARTED!"
         android:textColor="#E57755" />
 
