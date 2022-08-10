@@ -2,9 +2,11 @@ package com.android.uv;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SuggestActivity extends AppCompatActivity {
@@ -15,6 +17,10 @@ public class SuggestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_suggest);
         TextView tv = findViewById(R.id.tv);
 
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        // add return icon.
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         String data = getIntent().getStringExtra("data");
         if (TextUtils.isEmpty(data) || !TextUtils.isDigitsOnly(data.replaceAll("\\.", ""))) {
@@ -64,5 +70,13 @@ public class SuggestActivity extends AppCompatActivity {
         }
         tv.setText(str);
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
