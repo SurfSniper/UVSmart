@@ -8,36 +8,42 @@
     android:background="#FF52C7B8"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:textColor="@android:color/white"
-        android:textSize="28sp"
+        android:text="UV Smart"
+        android:textColor="#616161"
+        android:textSize="28sp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UV Smart" />
-
-
-    <TextView
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
+        android:text="Find Out UV Index Today"
         android:textColor="@android:color/black"
-        android:textSize="28sp"
-        android:layout_width="wrap_content"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/intro_detail"
+        android:layout_width="357dp"
         android:layout_height="wrap_content"
-        android:text="Find Out UV Index Today" />
-
-
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Living in Victoria, Australia, offers a vibrant lifestyle that nurtures success and the confidence to achieve your dreams. Melbourne is also voted among the Top Five Cities in the World for Students in the QS Best Student Cities Guide.  With the increase of international students studying in Victoria, there is a need to raise awareness on how you can protect yourself against the harmful UV radiation to prevent skin damage. Learn more about the UI Index Today and Why you need to protect yourself…"
+        android:textSize="14sp" />
 
     <Button
-        android:text="GET STARTED!"
-        android:layout_marginTop="100dp"
-        android:layout_marginHorizontal="40dp"
         android:id="@+id/bt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="100dp"
+        android:text="GET STARTED!"
+        android:textColor="#1DE9B6" />
 
 
 </LinearLayout>

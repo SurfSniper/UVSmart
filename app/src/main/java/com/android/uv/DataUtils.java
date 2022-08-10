@@ -15,11 +15,11 @@ import java.net.URLConnection;
 public class DataUtils {
     private static final String url =
             //Australia
-            //"https://api.openweathermap.org/data/3.0/onecall?lat=-37.81&lon=145.03&exclude=hourly,daily,minutely&appid=30b5da8e70056c4572570b6d7f5fa8f5";//Melbourne
+            "https://api.openweathermap.org/data/3.0/onecall?lat=-37.81&lon=145.03&exclude=hourly,daily,minutely&appid=30b5da8e70056c4572570b6d7f5fa8f5";//Melbourne
             //Shanghai
             //"https://api.openweathermap.org/data/3.0/onecall?lat=31.2304&lon=121.4737&exclude=hourly,daily,minutely&appid=30b5da8e70056c4572570b6d7f5fa8f5";//shanghai
             //Singapore
-            "https://api.openweathermap.org/data/3.0/onecall?lat=1.3521&lon=103.8198&exclude=hourly,daily,minutely&appid=30b5da8e70056c4572570b6d7f5fa8f5";//shanghai
+            //"https://api.openweathermap.org/data/3.0/onecall?lat=1.3521&lon=103.8198&exclude=hourly,daily,minutely&appid=30b5da8e70056c4572570b6d7f5fa8f5";//shanghai
 
     /**
      * 进行查询
