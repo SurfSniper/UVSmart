@@ -1,15 +1,18 @@
 package com.android.uv;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,11 +23,6 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setHomeButtonEnabled(true);
-        // add return icon.
-        actionBar.setDisplayHomeAsUpEnabled(true);
 
         TextView tv = findViewById(R.id.tv_uv);
         TextView tz = findViewById(R.id.timezone);
@@ -59,11 +57,25 @@ public class SearchActivity extends AppCompatActivity {
         });
 
     }
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_item,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @SuppressLint("ResourceType")
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case android.R.id.home:
-                this.finish();
-                return true;
+            case R.id.self_exams:
+                setContentView(R.menu.self_exams);
+                break;
+            case R.id.skin_cancer:
+                setContentView(R.menu.skin_cancer);
+                break;
+            case R.id.tips:
+                setContentView(R.menu.tips);
+                break;
+            case R.id.exit:
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
