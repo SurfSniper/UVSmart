@@ -76,13 +76,18 @@ public class SearchActivity extends AppCompatActivity {
                     setContentView(R.menu.self_exams);
                     break;
                 case R.id.skin_cancer:
-                    setContentView(R.menu.skin_cancer);
+                    setContentView(R.layout.activity_cancer_charts);
+                    startActivity(new Intent(getApplicationContext(),CancerChart.class));
                     break;
                 case R.id.tips:
-                    setContentView(R.menu.tips);
+                    setContentView(R.layout.activity_suggest);
+                    Intent intent = new Intent(getApplicationContext(),SuggestActivity.class);
+                    intent.putExtra("data",str);
+                    startActivity(intent);
                     break;
                 case R.id.exit:
-                    finish();
+                    setContentView(R.layout.activity_search);
+                    startActivity(new Intent(getApplicationContext(),SearchActivity.class));
                     break;
             }
             return super.onOptionsItemSelected(item);

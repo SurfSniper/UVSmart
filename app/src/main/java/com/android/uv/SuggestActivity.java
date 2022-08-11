@@ -1,5 +1,6 @@
 package com.android.uv;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.MenuItem;
@@ -74,7 +75,8 @@ public class SuggestActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                this.finish();
+                setContentView(R.layout.activity_search);
+                startActivity(new Intent(getApplicationContext(),SearchActivity.class));
                 return true;
         }
         return super.onOptionsItemSelected(item);

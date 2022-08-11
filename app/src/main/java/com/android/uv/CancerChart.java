@@ -49,7 +49,7 @@ public class CancerChart extends AppCompatActivity {
 
         pie.legend().title().enabled(true);
         pie.legend().title()
-                .text("Sex")
+                .text("Melanoma of the skin")
                 .padding(0d, 0d, 10d, 0d);
 
         pie.legend()

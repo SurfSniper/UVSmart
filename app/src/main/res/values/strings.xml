@@ -9,5 +9,6 @@
     <string name="uv_max">UV max</string>
     <string name="welcome">Welcome to UV Smart</string>
     <string name="timezone">Timezone</string>
+    <string name="uv3">"Low UV (0~3): \nYou can safely stay outside! A UV Index reading of 0 to 2 means low danger from the sun's UV rays for the average person.\nWear sunglasses on bright days.\nIf you burn easily, cover up and use broad spectrum SPF 30+ sunscreen.\nWatch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure."</string>
 </resources>
 
