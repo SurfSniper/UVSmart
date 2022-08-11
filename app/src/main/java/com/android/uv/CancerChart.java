@@ -1,7 +1,12 @@
 package com.android.uv;
 
+import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.anychart.AnyChart;
@@ -23,9 +28,10 @@ public class CancerChart extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cancer_charts);
-
-        AnyChartView anyChartView = findViewById(R.id.any_chart_view);
-        anyChartView.setProgressBar(findViewById(R.id.progress_bar));
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeButtonEnabled(true);
+        // add return icon.
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         Pie pie = AnyChart.pie();
 
@@ -57,6 +63,18 @@ public class CancerChart extends AppCompatActivity {
                 .itemsLayout(LegendLayout.HORIZONTAL)
                 .align(Align.CENTER);
 
+
+        AnyChartView anyChartView = findViewById(R.id.any_chart_view);
+        anyChartView.setProgressBar(findViewById(R.id.progress_bar));
         anyChartView.setChart(pie);
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                setContentView(R.layout.activity_search);
+                startActivity(new Intent(getApplicationContext(),SearchActivity.class));
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

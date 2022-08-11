@@ -33,6 +33,8 @@
 
         <activity
             android:name=".SuggestActivity"/>
+        <activity
+            android:name=".CancerChart"/>
 
     </application>
 

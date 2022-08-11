@@ -9,6 +9,8 @@
     <string name="uv_max">UV max</string>
     <string name="welcome">Welcome to UV Smart</string>
     <string name="timezone">Timezone</string>
-    <string name="uv3">"Low UV (0~3): \nYou can safely stay outside! A UV Index reading of 0 to 2 means low danger from the sun's UV rays for the average person.\nWear sunglasses on bright days.\nIf you burn easily, cover up and use broad spectrum SPF 30+ sunscreen.\nWatch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure."</string>
+    <string name="about_skin_cancer">"About skin cancer\nThe sun's ultraviolet (UV) radiation is the main cause of skin cancer. Each time your skin is damaged by UV, changes take place in the structure and function of the skin cells. If UV damage keeps adding up, skin cells become less able to repair, increasing the risk of skin cancer."</string>
+    <string name="in_australia">"In Australia\n- Two in three Australians will be diagnosed with skin cancer by age of 70.\n- About 2000 Australians die from skin cancer each year.\n- Australia has one of the highest rates of skin cancer in the world."</string>
+    <string name="uv3">"Low UV (0~3): \n- You can safely stay outside! A UV Index reading of 0 to 2 means low danger from the sun's UV rays for the average person.\n- Wear sunglasses on bright days.\nIf you burn easily, cover up and use broad spectrum SPF 30+ sunscreen.\n- Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure."</string>
 </resources>
 
