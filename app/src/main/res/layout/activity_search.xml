@@ -15,7 +15,7 @@
         android:textSize="28sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to UV Smart" />
+        android:text="@string/welcome" />
 
 
     <TextView
@@ -26,7 +26,7 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UV max" />
+        android:text="@string/uv_max" />
 
     <TextView
         android:id="@+id/timezone"
@@ -36,12 +36,12 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Timezone" />
+        android:text="@string/timezone" />
 
 
 
     <Button
-        android:text="GET SOME TIPS on sun protection！"
+        android:text="@string/sun_protection"
         android:layout_marginTop="100dp"
         android:layout_marginHorizontal="40dp"
         android:id="@+id/bt"
@@ -51,7 +51,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/skin_cancer"
+        android:textColor="#E57755"
+        android:backgroundTint="@color/white"
+        tools:ignore="TextContrastCheck" />
 
 
 </LinearLayout>

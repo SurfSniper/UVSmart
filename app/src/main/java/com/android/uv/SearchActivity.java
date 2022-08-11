@@ -56,5 +56,13 @@ public class SearchActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.bt2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view2) {
+                // 跳转到图表页面
+                startActivity(new Intent(getApplicationContext(),CancerChart.class));
+            }
+        });
+
     }
 }

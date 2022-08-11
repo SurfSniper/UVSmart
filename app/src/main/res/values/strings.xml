@@ -4,5 +4,10 @@
     <string name="get_started">GET STARTED!</string>
     <string name="call_to_action">Living in Victoria, Australia, offers a vibrant lifestyle that nurtures success and the confidence to achieve your dreams. With the increase of international students studying in Victoria, there is a need to raise awareness on how you can protect yourself against the harmful UV radiation to prevent skin damage.\nLearn more about the UI Index Today and Why you need to protect yourself…</string>
     <string name="tips_for_today">TIPS For Today</string>
+    <string name="skin_cancer">Get to know about UV and Skin Cancer</string>
+    <string name="sun_protection">GET SOME TIPS on sun protection！</string>
+    <string name="uv_max">UV max</string>
+    <string name="welcome">Welcome to UV Smart</string>
+    <string name="timezone">Timezone</string>
 </resources>
 
