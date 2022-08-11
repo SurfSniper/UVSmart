@@ -1,10 +1,9 @@
 package com.android.uv;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,4 +20,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
