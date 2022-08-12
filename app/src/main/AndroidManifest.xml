@@ -35,7 +35,8 @@
             android:name=".SuggestActivity"/>
         <activity
             android:name=".CancerChart"/>
-
+        <activity
+            android:name=".SelfCheck"/>
     </application>
 
 </manifest>

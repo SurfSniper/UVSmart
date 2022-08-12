@@ -73,7 +73,7 @@ public class SearchActivity extends AppCompatActivity {
         public boolean onOptionsItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.self_exams:
-                    setContentView(R.menu.self_exams);
+                    setContentView(R.layout.activity_selfcheck);
                     break;
                 case R.id.skin_cancer:
                     setContentView(R.layout.activity_cancer_charts);

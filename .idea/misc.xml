@@ -9,17 +9,17 @@
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.295" />
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/drawable/ic_launcher_background.xml" value="0.295" />
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout-v26/activity_main.xml" value="0.3605072463768116" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_alltips.xml" value="0.35260416666666666" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_cancer_charts.xml" value="0.1" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_alltips.xml" value="0.3078125" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_cancer_charts.xml" value="0.21041666666666667" />
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_main.xml" value="0.35280797101449274" />
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_search.xml" value="0.3605072463768116" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_selfcheck.xml" value="0.321875" />
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/layout/activity_suggest.xml" value="0.30625" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/menu_item.xml" value="0.25104166666666666" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/self_exams.xml" value="0.25104166666666666" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/skin_cancer.xml" value="0.25104166666666666" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/tips.xml" value="0.25104166666666666" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/menu_item.xml" value="0.26666666666666666" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/self_exams.xml" value="0.26666666666666666" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/skin_cancer.xml" value="0.26666666666666666" />
+        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/menu/tips.xml" value="0.26666666666666666" />
         <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.267" />
-        <entry key="..\:/OneDrive/Document/Monash/UVSmart/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2255" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22491349480968859" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.3302083333333333" />
         <entry key="app/src/main/res/layout/activity_suggest.xml" value="0.22" />
